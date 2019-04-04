@@ -1,4 +1,4 @@
-package HomeWork5;
+package HomeWork5.question2;
 
 abstract public class Book {
     protected String title;

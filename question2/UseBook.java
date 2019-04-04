@@ -1,4 +1,4 @@
-package HomeWork5;
+package HomeWork5.question2;
 
 public class UseBook {
     public static void main(String[] args) {

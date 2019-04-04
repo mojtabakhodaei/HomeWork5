@@ -3,7 +3,7 @@ package HomeWork5;
 abstract public class Book {
     protected String title;
     protected Double price;
-    
+
     public Book(){}
 
     public  Book (String title){
@@ -18,6 +18,6 @@ abstract public class Book {
         return price;
     }
 
-    abstract public void setPrice()
+    abstract public void setPrice();
 
 }

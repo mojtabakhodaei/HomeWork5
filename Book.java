@@ -1,8 +1,8 @@
 package HomeWork5;
 
 abstract public class Book {
-    private String title;
-    private Double price;
+    protected String title;
+    protected Double price;
 
     public  Book (String title){
         this.title=title;
@@ -17,5 +17,5 @@ abstract public class Book {
     }
 
     abstract public void setPrice()
-        
+
 }

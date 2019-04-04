@@ -3,6 +3,8 @@ package HomeWork5;
 abstract public class Book {
     protected String title;
     protected Double price;
+    
+    public Book(){}
 
     public  Book (String title){
         this.title=title;

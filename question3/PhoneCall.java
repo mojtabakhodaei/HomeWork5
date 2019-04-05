@@ -8,15 +8,14 @@ abstract public class PhoneCall {
 
     public PhoneCall(String phoneNumber){
         this.phoneNumber=phoneNumber;
-        this.price=0.0;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public void setPrice() {
+        this.price = 0.0;
     }
 
     abstract public String getPhoneNumber();
     abstract public Double getPrice();
-    abstract public String displayInformation();
+    abstract public void displayInformation();
 
 }

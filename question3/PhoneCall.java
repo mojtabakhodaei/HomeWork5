@@ -8,9 +8,6 @@ abstract public class PhoneCall {
 
     public PhoneCall(String phoneNumber){
         this.phoneNumber=phoneNumber;
-    }
-
-    public void setPrice() {
         this.price = 0.0;
     }
 

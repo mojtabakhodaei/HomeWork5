@@ -4,10 +4,6 @@ public class IncomingPhoneCall extends PhoneCall {
 
     public IncomingPhoneCall(String phoneNumber){
         super.phoneNumber=phoneNumber;
-    }
-
-    @Override
-    public void setPrice() {
         this.price = 0.02;
     }
 

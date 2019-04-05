@@ -4,10 +4,10 @@ public class OutgoingPhoneCall extends PhoneCall {
 
     Double callTime;
 
-    public OutgoingPhoneCall(String phonenumber , Double callTime){
-        super.phoneNumber=phonenumber;
-        this.callTime=callTime;
-        this.price = 0.04*callTime;
+    public OutgoingPhoneCall(String phonenumber, Double callTime) {
+        super.phoneNumber = phonenumber;
+        this.callTime = callTime;
+        this.price = 0.04 * callTime;
     }
 
     @Override

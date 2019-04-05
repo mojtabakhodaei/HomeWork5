@@ -2,8 +2,8 @@ package HomeWork5.question3;
 
 public class IncomingPhoneCall extends PhoneCall {
 
-    public IncomingPhoneCall(String phoneNumber){
-        super.phoneNumber=phoneNumber;
+    public IncomingPhoneCall(String phoneNumber) {
+        super.phoneNumber = phoneNumber;
         this.price = 0.02;
     }
 

@@ -4,15 +4,18 @@ abstract public class PhoneCall {
     protected String phoneNumber;
     protected Double price;
 
-    public PhoneCall(){}
+    public PhoneCall() {
+    }
 
-    public PhoneCall(String phoneNumber){
-        this.phoneNumber=phoneNumber;
+    public PhoneCall(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
         this.price = 0.0;
     }
 
     abstract public String getPhoneNumber();
+
     abstract public Double getPrice();
+
     abstract public void displayInformation();
 
 }

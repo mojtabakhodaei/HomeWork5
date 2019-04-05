@@ -14,10 +14,10 @@ public class BookArray {
         NonFiction book09 = new NonFiction("Bossypants");
         NonFiction book10 = new NonFiction("Into the Wild");
 
-        Book[] books = {book01,book02,book03,book04,book05,book06,book07,book08,book09,book10};
+        Book[] books = {book01, book02, book03, book04, book05, book06, book07, book08, book09, book10};
 
         for (int i = 0; i < 10; i++) {
-            System.out.println("title: \"" + books[i].title + "\"" + "\nprice: " + books[i].price );
+            System.out.println("title: \"" + books[i].title + "\"" + "\nprice: " + books[i].price);
         }
     }
 

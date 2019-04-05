@@ -4,10 +4,11 @@ abstract public class Book {
     protected String title;
     protected Double price;
 
-    public Book(){}
+    public Book() {
+    }
 
-    public  Book (String title){
-        this.title=title;
+    public Book(String title) {
+        this.title = title;
     }
 
     public String getTitle() {

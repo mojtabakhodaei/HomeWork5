@@ -8,7 +8,7 @@ public class MetalElement extends Element {
 
     @Override
     public void describeElement() {
-        System.out.println("\nElement: " + super.symbol + "\natomicNumber: " + super.atomicNumber + "\natomicWeight: " + super.atomicWeight);
+        System.out.println("\nElement: " + getSymbol() + "\natomicNumber: " + getAtomicNumber() + "\natomicWeight: " + getAtomicWeight());
         System.out.println("This Element is good conductor of electricity");
     }
 }

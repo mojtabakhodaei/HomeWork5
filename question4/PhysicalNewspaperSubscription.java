@@ -8,9 +8,9 @@ public class PhysicalNewspaperSubscription extends NewspaperSubscription {
         Boolean bool = false;
 
         for (int i = 0; i <= 9; i++) {
-                if (address.contains(Integer.toString(i)))
-                    bool = true;
-            }
+            if (address.contains(Integer.toString(i)))
+                bool = true;
+        }
 
 
         if (bool) {

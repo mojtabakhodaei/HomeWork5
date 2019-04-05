@@ -4,6 +4,8 @@ abstract public class PhoneCall {
     protected String phoneNumber;
     protected Double price;
 
+    public PhoneCall(){}
+
     public PhoneCall(String phoneNumber){
         this.phoneNumber=phoneNumber;
         this.price=0.0;
